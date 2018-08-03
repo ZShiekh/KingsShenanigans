@@ -1,0 +1,256 @@
+﻿/*================================================
+    Author: Zaffar Shiekh
+    
+==================================================
+    GENERIC STYLES
+==================================================*/
+html {
+	font-family: sans-serif;
+	font-size: 70%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 15px;
+	margin: 2;
+	font-family: "Helvetica Neue";
+	line-height: 1.5;
+	color: #33004f;
+	background-color: #000;
+}
+
+footer,
+  display: inline;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height: 45px;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #E91C1C;
+}
+
+h1::after {  /* Underline */
+	display: block;
+	content: "";
+	height: 2px;
+	width: 130px;
+	background: #E91C1C;
+	margin: 5px auto 40px;
+}
+
+h2 {
+    line-height: 50px;
+    color: #E91C1C;
+}
+
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-padding {
+    padding-bottom: 10px;
+}
+
+section {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.navbar {
+	height: 120px;
+	max-height: 340px;
+	display: block;
+}
+
+.container {
+  padding: auto;
+  margin: auto;
+  background: url(../images/rockomen1.jpg) no-repeat 880px fixed;
+}
+
+.container-fluid {
+  padding: auto;
+  margin: auto;
+}
+
+.container2 {
+  padding: auto;
+  margin: auto;
+  background: url(../images/iceomen.jpg) no-repeat -80px fixed; 
+}
+
+.container2-fluid {
+  padding: auto;
+  margin: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.clearfix:after,
+.container:after,
+.container2:after,
+.navbar:after {
+	clear: both;
+	display: table;
+	content: " ";
+	background-color: transparent;
+}
+
+.wrap {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.menu-container {
+	max-height: 400px;
+	margin: 0% auto;
+	text-align: center;
+	content: " ";
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+/*=======================================
+  HOME SECTION STYLES
+  =======================================*/
+#home {
+	background: url(../images/hydro74.jpg) no-repeat center center fixed;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 100px; /* This is spacer before the Main title Logo */
+	padding-bottom: 1100px; /* This is spacer after the Main title Logo */
+	color: #000;
+}
+
+.head-main {
+	text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+	color: #ff0a0a;
+	letter-spacing: 5pt;
+	word-spacing: 21pt;
+	font-size: 4.5em;
+	text-align: left;
+	font-family: impact, sans-serif;
+	line-height: 2;
+    font-weight: 900;
+    border: none;
+    padding: 0px, 10px;
+}
+
+.head-sub-main {
+    font-size: 23px ;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+	text-transform: uppercase;  
+}
+
+.head-last {
+    font-size: 18px ;
+    font-weight: 900;
+    padding: 5px 20px 20px 20px;
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
+/*=======================================
+  VIDEO CONTAINER STYLES
+  =======================================*/
+.flex-container {
+    display: -webkit-flex;
+	flex-wrap: wrap;
+	padding: 10px 60px;
+	border-radius: 30px 90px;
+	margin: 100px auto;
+}
+
+.flex-container2 {
+    display: -webkit-flex;
+	flex-wrap: wrap;
+	padding: 10px 60px;
+	border-radius: 30px 90px;
+	margin: 100px auto;
+}
+
+/*=======================================
+  FOOTER STYLES
+  =======================================*/
+#footer {
+    color: #00f6ff;
+	font-size: 20px;
+	font-weight: bold;
+	background: url(../images/red&gold.jpg) repeat center fixed;
+	text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+	margin-top: 100px;
+    padding: 15px 50px 15px 50px;
+    text-align: right;
+}
+
+/*=======================================
+  @MEDIA QUERIES
+  =======================================*/
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    width: 1500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container2 {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container2 {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container2 {
+    width: 1500px;
+  }
+}

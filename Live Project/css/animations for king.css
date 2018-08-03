@@ -1,0 +1,82 @@
+/*=======================================
+  MENU SECTION ANIMATION
+  =======================================*/
+
+.menu {
+	color: #d0ba36;
+	font: bold 12px/18px sans-serif;
+	text-align: center;
+	display: inline;
+	margin: 0% auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.menu li {
+	color: #000;
+	background-color: #bc8f8f;
+	display: inline-block;
+	margin: center;
+	text-align: center;
+	padding: 15px 2%;
+	border: 1px solid #9D9FA2;
+	border-radius: 6px;
+	/*background-color: #052136;*/
+	cursor: pointer;
+	transition-property: background;
+	transition-duration: .4s;
+	transition-delay: 0s;
+	transition-timing-function: ease-in-out;
+}
+
+.menu li:hover {
+	color: #d0ba36;
+	background-color: rgba(198,0,93,.4);
+}
+
+/*=======================================
+  VIDEO SECTION ANIMATION
+  =======================================*/
+.video {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 2em;
+	overflow: hidden;
+	border-radius:10px;
+	padding:2px;
+	border:2px solid #a20000;
+	background-color: #FF0001;
+}
+
+.video-container {
+	text-align: center;
+	margin: 25px auto;
+	width: 335px;
+    height: 190px;
+}
+
+.video-container video {
+ 	max-width: 100%;
+	width: 335px;
+	height: 190px;
+}
+
+.video-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center; /* Centering text inside overlay */
+	align-items: center;
+	background: rgba();
+}
+
+.white-head {
+	color: #330;
+	margin-top: 5%;
+}
